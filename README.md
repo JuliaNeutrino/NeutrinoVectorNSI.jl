@@ -19,4 +19,6 @@ probability(p, :μ, :e; E = 2.5, L = 1300, ρ = 2.848)
 
 It combines with the other blocks, e.g. [NeutrinoScalarNSI.jl](https://github.com/JuliaNeutrino/NeutrinoScalarNSI.jl) and [NeutrinoDecoherence.jl](https://github.com/JuliaNeutrino/NeutrinoDecoherence.jl), and rates, χ² and fits in GLoBES.jl use its parameters like the standard ones.
 
+The notebook [`notebooks/01_vector_NSI.ipynb`](notebooks/01_vector_NSI.ipynb) goes through the package: the LMA-Dark degeneracy, ε_μτ in atmospheric neutrinos, DUNE event rates and the sensitivity to ε_eτ ([open in Colab](https://colab.research.google.com/github/JuliaNeutrino/NeutrinoVectorNSI.jl/blob/main/notebooks/01_vector_NSI.ipynb); choose **Runtime → Change runtime type → Julia** first).
+
 Tests: `julia --project=. test/runtests.jl`.
